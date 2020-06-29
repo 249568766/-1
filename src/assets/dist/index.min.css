@@ -1,0 +1,1 @@
+*,body,dd,div,dl,dt,h1,h2,h3,h4,html,li,ol,span,ul{margin:0;padding:0;box-sizing:border-box;font-weight:400}input[type=text]:focus{border:1px solid #d32f2f;border-right:0 none}li,ul{list-style:none}img{border:0;vertical-align:middle}.clerfix::after,.clerfix::before{content:"";display:table}.clerfix::after{clear:both}

@@ -1,0 +1,41 @@
+html,
+body,
+div,
+ul,
+ol,
+dl,
+dt,
+dd,
+li,
+dl,
+h1,
+h2,
+h3,
+h4,
+span,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+input[type=text]:focus {
+  border: 1px solid #d32f2f;
+  border-right: 0 none;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+.clerfix::before,
+.clerfix::after {
+  content: "";
+  display: table;
+}
+.clerfix::after {
+  clear: both;
+}
